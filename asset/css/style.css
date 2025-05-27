@@ -148,4 +148,96 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+/* About Section */
+.about-section {
+    padding: 80px 0;
+    background-color: white;
+
+}
+
+.section-title {
+    /* color: var(--primary-color); */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    width: 80px;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+.profile-image-container {
+    position: relative;
+    height: 100%;
+    min-height: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-placeholder {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+/* Profile Image Styling */
+.profile-image-placeholder img {
+    width: 100%;                /* Fill container width */
+    height: 100%;               /* Fill container height */
+    object-fit: cover;          /* Ensures image covers area without distortion */
+    object-position: center;    /* Centers the image */
+    /* display: block;             Removes extra space under image */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+
+
+
+
+
+.about-text {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    margin-top: 20px;
+}
+
+.skills-list h5 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.skills-list ul {
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.skills-list li::before {
+    content: '•';
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 
