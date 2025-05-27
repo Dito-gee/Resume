@@ -335,4 +335,29 @@ body {
     text-align: center;
 }
 
+/* Footer section */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-family: 160%;
+    padding: 5%;
+    color: #ff2b2b;
+
+}
+
+
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
 
