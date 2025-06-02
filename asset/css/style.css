@@ -13,26 +13,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-/* Replace your existing scroll-padding rules with: */
-:root {
-  --navbar-height: 72px; /* Default height - measure yours exactly */
-}
 
-html {
-  scroll-padding-top: var(--navbar-height) !important;
-}
-
-/* Mobile menu expanded state */
-.navbar-collapse.show {
-  position: fixed;
-  top: var(--navbar-height);
-  left: 0;
-  right: 0;
-  background: #2c3e50; /* Match your navbar color */
-  z-index: 1020;
-  max-height: calc(100vh - var(--navbar-height)) !important;
-  overflow-y: auto;
-}
 /* Navigation section */
 .navbar {
     background-color: var(--primary-color);
