@@ -13,6 +13,10 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
+/* Add scroll padding to account for fixed navbar */
+html {
+  scroll-padding-top: 70px;
+}
 
 /* Navigation section */
 .navbar {
