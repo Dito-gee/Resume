@@ -13,21 +13,35 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-/* Add scroll padding to account for fixed navbar */
+/* Mobile (scroll padding to account for fixed navbar) */
 html {
-  scroll-padding-top: 70px;
+  scroll-padding-top: 56px; /* Default mobile navbar height */
 }
 
-/* Base scroll padding for mobile first */
-html {
-  scroll-padding-top: 56px; /* Default for mobile */
+/* Tablet (potrait- scroll padding to account for fixed navbar) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    scroll-padding-top: 60px;
+  }
 }
 
-/* Adjust for larger screens where navbar expands */
+/* Tablet (landscape - scroll padding to account for fixed navbar) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    scroll-padding-top: 65px;
+  }
+}
+
+/* Desktop (scroll padding to account for fixed navbar) */
 @media (min-width: 992px) {
   html {
-    scroll-padding-top: 70px; /* Height for desktop navbar */
+    scroll-padding-top: 70px; /* Desktop navbar height */
   }
+}
+
+/* Extra adjustment when mobile menu is open */
+.navbar-collapse.show ~ * {
+  scroll-padding-top: 300px !important; /* Approximate open menu height */
 }
 
 /* Navigation section */
