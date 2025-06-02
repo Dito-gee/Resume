@@ -13,35 +13,24 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-/* Mobile (scroll padding to account for fixed navbar) */
+/* Base mobile navbar height (collapsed) */
 html {
-  scroll-padding-top: 56px; /* Default mobile navbar height */
+  scroll-padding-top: 56px; 
 }
 
-/* Tablet (potrait- scroll padding to account for fixed navbar) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  html {
-    scroll-padding-top: 60px;
-  }
+/* When mobile menu is OPEN (adjust 300px to your expanded menu height) */
+.navbar-collapse.show ~ * {
+  scroll-padding-top: 300px !important;
 }
 
-/* Tablet (landscape - scroll padding to account for fixed navbar) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  html {
-    scroll-padding-top: 65px;
-  }
-}
-
-/* Desktop (scroll padding to account for fixed navbar) */
+/* Desktop/tablet navbar height */
 @media (min-width: 992px) {
   html {
-    scroll-padding-top: 70px; /* Desktop navbar height */
+    scroll-padding-top: 70px !important;
   }
-}
-
-/* Extra adjustment when mobile menu is open */
-.navbar-collapse.show ~ * {
-  scroll-padding-top: 300px !important; /* Approximate open menu height */
+  .navbar-collapse.show ~ * {
+    scroll-padding-top: 70px !important; /* Reset for desktop */
+  }
 }
 
 /* Navigation section */
