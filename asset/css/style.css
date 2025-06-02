@@ -18,6 +18,18 @@ html {
   scroll-padding-top: 70px;
 }
 
+/* Base scroll padding for mobile first */
+html {
+  scroll-padding-top: 56px; /* Default for mobile */
+}
+
+/* Adjust for larger screens where navbar expands */
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 70px; /* Height for desktop navbar */
+  }
+}
+
 /* Navigation section */
 .navbar {
     background-color: var(--primary-color);
