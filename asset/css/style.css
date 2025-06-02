@@ -4,7 +4,7 @@
     --secondary-color: #e74c3c;
     --light-color: #f8f9fa;
     --dark-color: #343a40;
-    --text-color: #333;S
+    --text-color: #333;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-/*  */
+/* Add scroll padding to account for fixed navbar */
 html {
   scroll-padding-top: 70px;
 }
