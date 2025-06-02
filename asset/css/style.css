@@ -367,13 +367,13 @@ body {
 
 .btn-primary {
     background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
+    border-color: var(--secondary-color-darker);
     padding: 12px 30px;
 }
 
 .btn-primary:hover {
     background-color: #c0392b;
-    border-color: #c0392b;
+    border-color: #a03124;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
