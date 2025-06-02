@@ -13,26 +13,26 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-/* Base mobile navbar height (collapsed) */
+/* Replace your existing scroll-padding rules with: */
+:root {
+  --navbar-height: 72px; /* Default height - measure yours exactly */
+}
+
 html {
-  scroll-padding-top: 56px; 
+  scroll-padding-top: var(--navbar-height) !important;
 }
 
-/* When mobile menu is OPEN (adjust 300px to your expanded menu height) */
-.navbar-collapse.show ~ * {
-  scroll-padding-top: 300px !important;
+/* Mobile menu expanded state */
+.navbar-collapse.show {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  right: 0;
+  background: #2c3e50; /* Match your navbar color */
+  z-index: 1020;
+  max-height: calc(100vh - var(--navbar-height)) !important;
+  overflow-y: auto;
 }
-
-/* Desktop/tablet navbar height */
-@media (min-width: 992px) {
-  html {
-    scroll-padding-top: 70px !important;
-  }
-  .navbar-collapse.show ~ * {
-    scroll-padding-top: 70px !important; /* Reset for desktop */
-  }
-}
-
 /* Navigation section */
 .navbar {
     background-color: var(--primary-color);
