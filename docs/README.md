@@ -138,7 +138,7 @@ I deployed the page on GitHub pages via the following procedure: -
 
 ### Tech
 
-I used the following technologies for the STA project:
+I used the following technologies for the project:
 
 •	HTML
 
