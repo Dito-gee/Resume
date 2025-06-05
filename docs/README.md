@@ -47,9 +47,6 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ### Design
 
-#### Colour Scheme
-
-•	The two main colours used are Code Insititue red, and white.
 
 #### Typography
 
@@ -129,12 +126,9 @@ CSS Validation using w3c jigsaw
 I deployed the page on GitHub pages via the following procedure: -
 
 1.	From the project's repository, go to the Settings tab.
-2.	
-3.	From the left-hand menu, select the Pages tab.
-4.	
-5.	Under the Source section, select the Main branch from the drop-down menu and click Save.
-6.	
-7.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Resume/
+2.	From the left-hand menu, select the Pages tab.
+3.	Under the Source section, select the Main branch from the drop-down menu and click Save.
+4.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Resume/
 
 ### Tech
 
