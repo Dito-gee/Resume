@@ -158,8 +158,7 @@ body {
 }
 
 .section-title {
-    /* color: var(--primary-color); */
-    font-size: 2rem;
+     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 40px;
     position: relative;
@@ -197,12 +196,12 @@ body {
 
 /* Profile Image Styling */
 .profile-image-placeholder img {
-    width: 100%;                /* Fill container width */
-    height: 100%;               /* Fill container height */
-    object-fit: cover;          /* Ensures image covers area without distortion */
-    object-position: center;    /* Centers the image */
-    /* display: block;             Removes extra space under image */
-    transition: transform 0.3s ease; /* Smooth hover effect */
+    width: 100%;                
+    height: 100%;               
+    object-fit: cover;          
+    object-position: center;    
+    display: block;             
+    transition: transform 0.3s ease;
 }
 .about-text {
     margin-bottom: 20px;
@@ -241,7 +240,7 @@ body {
 /* Portfolio Image Container */
 .portfolio-image-container {
     height: 200px;
-    background-color: #f5f5f5; /* Fallback color */
+    background-color: #f5f5f5; 
     margin-bottom: 15px;
     border-radius: 5px;
     overflow: hidden;
