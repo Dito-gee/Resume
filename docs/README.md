@@ -57,11 +57,14 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 Wireframes for desktop, tablet and mobile phone devices were created using Balsamiq. This process provides a basic but clear outline of how the website would look on each device.
 
-1.	Desktop device  https://github.com/Dito-gee/Resume/commit/ad9452970ca5bab7f3197bf05ff67f99140793d4#diff-51e661fb6453941c3490a3ed31e92b88d488e54711e10e796e68d2a374096b7e
+![Desktop wireframe Project 1](https://github.com/user-attachments/assets/fcac4969-902d-4400-bbac-a43214746f99)
 
-2.	Tablet device https://github.com/Dito-gee/Resume/commit/ad9452970ca5bab7f3197bf05ff67f99140793d4#diff-aaad6edf63e231af3ff0e0a73fe49760b6e9c016d85213d51b83add10bf22f05 
 
-3.	Mobile device https://github.com/Dito-gee/Resume/commit/ad9452970ca5bab7f3197bf05ff67f99140793d4#diff-b2754e7561c12d75e5f626f516a39c60a4f15da03dc9b4a203ba2d78e355feca
+![Tablet wireframe Project 1](https://github.com/user-attachments/assets/8d0ab388-673d-4823-8b3d-78f964eb650a)
+
+
+![Mobile Phone wireframe Project 1](https://github.com/user-attachments/assets/faded3b1-e85f-480f-9aa2-a2f8e3ac4c52)
+
 
 ### Features
 
