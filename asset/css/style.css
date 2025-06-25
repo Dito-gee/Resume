@@ -508,7 +508,7 @@ body {
 .navbar-dark .nav-link,
 .navbar-dark .navbar-brand,
 .navbar-dark .contact-item a,
-.footer a {
+.footer a  {
     color: white !important;
 }
 
@@ -516,3 +516,22 @@ body {
 #social-networks i {
     color: white !important;
 }
+
+/* Force white color for all header links */
+.navbar-dark .contact-item a,
+.navbar-dark .contact-item a:hover,
+.navbar-dark .contact-item a:focus {
+    color: white !important;
+    text-decoration: underline;
+}
+
+/* Override Bootstrap's default link colors */
+.navbar-dark a:not(.btn) {
+    color: white !important;
+}
+
+/* Remove all pseudo-element effects */
+.nav-link::after {
+    display: none !important;
+}
+
