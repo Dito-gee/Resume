@@ -517,14 +517,6 @@ body {
     color: white !important;
 }
 
-/* Force white color for all header links */
-.navbar-dark .contact-item a,
-.navbar-dark .contact-item a:hover,
-.navbar-dark .contact-item a:focus {
-    color: white !important;
-    text-decoration: underline;
-}
-
 /* Override Bootstrap's default link colors */
 .navbar-dark a:not(.btn) {
     color: white !important;
