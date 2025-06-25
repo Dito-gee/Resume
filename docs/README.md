@@ -9,7 +9,8 @@ Whilst there are numerous painter and decorators, I have not yet come across a s
 The reason behind this is to market myself more and therefore increase chances of getting work. Especially when you consider the current economic situation in the country. 
 The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
-![image](https://github.com/user-attachments/assets/f7d502b8-4211-4715-b74b-93e08ab81c8f)
+![Screenshot 2025-06-25 184504](https://github.com/user-attachments/assets/30227fda-cd94-46c0-80a9-abf9e46b920f)
+
 
 ### Planning Stage
 
