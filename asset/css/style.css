@@ -503,3 +503,16 @@ body {
 .delay-3 {
     animation-delay: 0.6s;
 }
+
+/* Make all links white on dark backgrounds */
+.navbar-dark .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .contact-item a,
+.footer a {
+    color: white !important;
+}
+
+/* Make social media icons white */
+#social-networks i {
+    color: white !important;
+}
