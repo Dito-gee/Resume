@@ -125,6 +125,83 @@ CSS Validation using w3c jigsaw
 
 ![image](https://github.com/user-attachments/assets/1c4b9a5e-50c8-48cb-9052-dfc2831d053d)
 
+#### Testing User Stories from User Experience (UX) Section
+##### User Goals
+#### As a user, I want to easily understand the main purpose of the site and learn more about the named person’s profession.
+
+Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+
+Underneath there is a content Hero with Text and a "DOWNLOAD MY CV" Call to action button.
+    
+The main points are made immediately with the content hero 
+
+![Screenshot 2025-06-26 120141](https://github.com/user-attachments/assets/bc9d761e-a498-4ab1-a081-0cecc4267550)
+
+#### As a user, I want to easily be able to navigate throughout the site to find content.
+
+The site has been designed to be fluid. At the top of the home page there are page heading links, each link describes a page and sends the user to the respective page when selected.
+
+The user can navigate the website to learn more about the named person’s profession using the following options, i.e.  click the call-to-action button to download cv, or scroll down, or click the navbar links (home, about, portfolio, contact) 
+
+![Screenshot 2025-06-26 123209](https://github.com/user-attachments/assets/cc51cbc3-2bf4-460b-8177-cb75ab0dd554)
+
+#### As a user, I want to know more about the named person’s knowledge, experience and skills in the painting and decorating profession. 
+ 
+I want to be able to locate their social media links to learn more about them.
+
+I want to be able to download a copy of their CV.
+
+I want to be able to see pictorial evidence of work done.
+
+![Screenshot 2025-06-26 124809](https://github.com/user-attachments/assets/d9c2e1bb-de84-4243-aa96-647fc2e857d9)
+
+![Screenshot 2025-06-26 124914](https://github.com/user-attachments/assets/0a10b6d7-86a1-45c8-a97c-cea82e6bdd0b)
+
+![Screenshot 2025-06-26 125245](https://github.com/user-attachments/assets/7fd52a08-64da-46cd-b5d5-75c4358e13b5)
+
+
+#### As a user, I want to find the best way to get in contact with the named person.
+
+The navigation bar clearly highlights the "Contact " Page. Here they can fill out the form on the page. Alternatively, they can contact the person via social media, email or phone. 
+
+The footer contains links to the named person’s Facebook, Twitter and Instagram page as well as his email and phone number.
+
+Email address and phone number can also be found in the header page.
+
+Whichever link they click, it will be open in a new tab to ensure the user can easily get back to the website.
+
+The email link is set up to automatically open your email app and autofill their email address in the "To" section.
+
+The phone link is set to automatically open in your phone ready to make call.
+
+![Screenshot 2025-06-26 131640](https://github.com/user-attachments/assets/a87e3e76-fda8-4936-8d9e-4a2e55297edb)
+
+![Screenshot 2025-06-26 131656](https://github.com/user-attachments/assets/cae927d1-f1f7-4ea0-bc50-60150f8d17b9)
+
+![Screenshot 2025-06-26 131625](https://github.com/user-attachments/assets/e81f6b0c-2d39-4e24-b308-5e91e4fc3257)
+
+### Further Testing
+
+The Website was tested on Google Chrome and Microsoft Edge browsers.
+
+![Screenshot 2025-06-26 130924](https://github.com/user-attachments/assets/d13a9c75-f2d1-4a47-9a72-67ea5c6b70cd)
+
+![Screenshot 2025-06-26 131011](https://github.com/user-attachments/assets/bce4da33-be36-461a-a45f-cd1fb6f0f4ad)
+
+The website was viewed on a variety of devices such as Desktop, Laptop, tablet and mobile.
+
+Testing was done to ensure that all pages were linking correctly.
+
+Friends were asked to review the site to point out any user experience issues.
+
+### Known Bugs
+
+Navigation from one page to another does not well properly when using the navigation links at the top of the home page. 
+
+![Screenshot 2025-06-26 122917](https://github.com/user-attachments/assets/23004b6f-0fae-4bf2-b0b6-d8ad86a0bedb)
+
+
+
 ### Deployment
 
 I deployed the page on GitHub pages via the following procedure: -
