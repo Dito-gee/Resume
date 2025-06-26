@@ -196,7 +196,7 @@ Friends were asked to review the site to point out any user experience issues.
 
 ### Known Bugs
 
-Navigation from one page to another does not well properly when using the navigation links at the top of the home page. 
+Navigation from one page to another does not work properly when using the navigation links at the top of the home page. 
 
 ![Screenshot 2025-06-26 122917](https://github.com/user-attachments/assets/23004b6f-0fae-4bf2-b0b6-d8ad86a0bedb)
 
