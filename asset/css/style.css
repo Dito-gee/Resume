@@ -535,3 +535,7 @@ body {
     display: none !important;
 }
 
+/* change contact icons colour to white  */
+.fas.contact-icon {
+    color: white;
+}
