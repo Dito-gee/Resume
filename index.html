@@ -17,39 +17,39 @@
 <body>
     <!-- Navigation section -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand me-5" href="index.html">Nderitu Githaiga</a>
-        <!-- Phone number -->
-        <p class="contact-item" style="margin-right: 20px;">
-            <i class="fas fa-phone contact-icon"></i>
-            <a href="tel:+447851349247">+44 7851349247</a>
-        </p>
-        <!-- Email address -->
-        <p>
-            <i class="fas fa-envelope contact-icon"></i>
-            <a href="mailto:nderitug@yahoo.com">nderitug@yahoo.com</a>
-        </p>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#contact">Contact</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand me-5" href="index.html">Nderitu Githaiga</a>
+            <!-- Phone number -->
+            <p class="contact-item" style="margin-right: 20px;">
+                <i class="fas fa-phone contact-icon"></i>
+                <a href="tel:+447851349247 ">+44 7851349247</a>
+            </p>
+            <!-- Email address -->
+            <p>
+                <i class="fas fa-envelope contact-icon "></i>
+                <a href="mailto:nderitug@yahoo.com">nderitug@yahoo.com</a>
+            </p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
     <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="container">
@@ -270,19 +270,12 @@
         document.getElementById('year').textContent = new Date().getFullYear();
 
         // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"], a[href*="index.html#"]').forEach(anchor => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
-                              if (this.href.startsWith(window.location.href.split('#')[0])) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').split('#')[1];
-                    const targetElement = document.getElementById(targetId);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth'
-                        });                    
-                        history.pushState(null, null, '#' + targetId);
-                    }
-                }               
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
 

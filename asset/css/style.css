@@ -38,6 +38,16 @@ body {
     transition: color 0.3s;
     position: relative;
 }
+/* Update active nav link styling */
+.navbar-dark .nav-link.active {
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+}
+
+/* Remove the underline from all nav links */
+.navbar-dark .nav-link {
+    text-decoration: none !important;
+}
 
 .nav-link:hover {
     color: var(--secondary-color) !important;
