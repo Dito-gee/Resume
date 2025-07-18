@@ -10,6 +10,8 @@ The reason behind this is to market myself more and therefore increase chances o
 The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ![Screenshot 2025-06-25 184504](https://github.com/user-attachments/assets/30227fda-cd94-46c0-80a9-abf9e46b920f)
+<img width="1041" height="615" alt="Screenshot 2025-07-18 104133" src="https://github.com/user-attachments/assets/ed323969-3031-4d69-94c2-96fe4703de4d" />
+
 
 
 ### Planning Stage
